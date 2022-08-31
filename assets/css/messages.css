@@ -1,0 +1,19 @@
+.button_back{
+    background-color: rgb(216, 178, 128);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 300;
+
+}
+
+div{
+    width: 45%;
+    text-align:justify;
+    background-color: rgb(148, 222, 224);
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+div p{
+    margin-left: 4px;
+}

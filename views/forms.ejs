@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/forms.css">
+    <title>Form</title>
+</head>
+<body>
+<h2 id="heading">File Directory</h2>
+<div>
+<form action="/show" method="post">
+    <input type="text" name="directory" placeholder="Enter Directory" required>
+    <br>
+    <h2>Time Interval</h2>
+    <h3>Start</h3>
+    <input type="date" name="start_date"  placeholder="start date " value="" min="1997-01-01" max="2030-12-31">
+    <input value="00:00:00" type="time" name="start_time" placeholder="Start Time" step="1">
+
+    <h3>End</h3>
+    <input type="date" name="end_date"  placeholder="end date " value="" min="1997-01-01" max="2030-12-31">
+    <input value="00:00:00" type="time" name="end_time" placeholder="End Time" step="1">
+       
+    <h3>Severity</h3>
+    <select name="severity" >
+        <option value="Error">Error</option>
+        <option value="Warning">Warning</option>
+        <option value="Debug">Debug</option>
+        <option value="Info">Info</option>
+      </select>
+    
+    
+    <input type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>
